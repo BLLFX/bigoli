@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FluxStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="fluxstore.png" width="100px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="produits.html">Produits</a></li>
+                        <li><a href="produits.html">Contacts</a></li>
+                        
+                        
+                    </ul>
+                </nav>
+                <img class="cart" src="cart.png" width="25px" height="25px">
+                <img  src="menu.png" class="menu-icon" 
+                onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Flux Store, votre chez vous!!!</h1>
+                    <p>Bienvenue sur Flux, votre destination en linge pour la mode, les chaussures et les appareils électroniques! <br>Notre magasin en ligne propose une vaste sélection de produits de haute qualité, allant des dernières tendances en matière de vêtements, de chaussures élégantes en passant par les gadgets électroniques les plus innovants. <br> Que vous cherchez à rehausser votre style ou à améliorer votre expérience technologique, Flux a tout ce dont vous avez besoin.</p>
+                    <a href="produits.html" class="btn">Explorer maintenant &#8594;</a>
+                </div>
+                <div class="col-3">
+                    <img src="fotow.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ Nos produits ------>
+    <section class="main"> 
+        <h4 class="prodd">Some of our Products</h4>
+            <div class="row_2">
+                
+                <div class="col-4">
+                    <img  src="tenis1.png" alt="tenis">
+                    <h3>AIR JORDAN</h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>8500 GDES</p>
+                </div>
+                <div class="col-4">
+                    <img  src="pantalon13.png" >
+                    <h3>PANTALON COURT</h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <P>1500 GDES</P>
+                </div>
+                <div class="col-4">
+                    <img  src="lunette.png">
+                    <h3>GLASSES</h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <P>2300 GDES</P>
+                </div>
+                <div class="col-4">
+                    <img src="kepi1.png" >
+                    <h3>CASQUETTE</h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <P>2000 GDES</P>
+                </div>
+            </div>
+            <div class="row_2">
+                
+                <div class="col-4">
+                    <img  src="maillot2.png" alt="tenis">
+                    <h3>MAILLOT</h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>1500 GDES</p>
+                </div>
+                
+                <div class="col-4">
+                    <img  src="vens.png">
+                    <h3>VENS</h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <P>7000 GDES</P>
+                </div>
+                <div class="col-4">
+                    <img src="aireforce1.png" >
+                    <h3>AIRE FORCE 1</h3>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <P>8000 GDES</P>
+                </div>
+            </div>
+            <header>
+                <h4 class="prod">Apercu</h4>
+            </header>
+    </section>
+    <!--Testomial-->
+    <div class="testemonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Nous offrons aussi nos meilleurs produits,<br>des produits de qualite superieur<br>regardez, contenplez, <br>et surtout passez vos commandes!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="shoes.png" alt="">
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Nous donnons le meilleur de nous meme pour <br>satisfaire nos client dans la livraison.<br>Ayez confiance en nous et placez vos commandes, <br>nous serons chez vous.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="livraison.png" alt="">
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Nous travaillons avec d'autre entreprise, <br>et ensemble nous arriverons.<br>Travaillons ensemble et construisons l'avenir.<br>Contactez nous pour votre aide.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="people.png" alt="">
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="copy">
+        <hr>
+    <p class="copyright">Copyright 2024 - FluxStore</p>
+    </div>
+    <!--js toggle-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
